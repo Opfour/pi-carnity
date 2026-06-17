@@ -1,0 +1,11 @@
+{
+  "name": "@opfour/pi-steak-doneness",
+  "version": "1.0.0",
+  "description": "Model switching by steak doneness. Type 'rare', 'medium', or 'well done' to switch models.",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./steak-doneness.ts"],
+    "skills": ["./skills"]
+  }
+}

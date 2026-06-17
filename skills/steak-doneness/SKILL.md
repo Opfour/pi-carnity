@@ -1,0 +1,24 @@
+---
+name: steak-doneness
+description: Switch models by steak doneness. When the user types 'rare', 'medium', or 'well done' as a standalone message, switch to the corresponding model immediately.
+---
+
+# Steak Doneness Model Switcher
+
+## Trigger Words
+| Word | Model | Purpose |
+|------|-------|---------|
+| `rare` | deepseek/deepseek-chat | Lightweight tasks |
+| `medium` | openrouter/deepseek/deepseek-v4-pro | Balanced workloads |
+| `well done` | openrouter/anthropic/claude-sonnet-4-20250514 | Heavy lifting |
+
+## Instructions
+
+When the user types one of these words as their **entire message** (case-insensitive):
+
+1. Immediately run the `/model` command with the corresponding model string
+2. Confirm the switch with a short message like "🔥 Switched to <model>"
+
+Do NOT process the word as a prompt. Do NOT respond to it. Just switch the model and confirm.
+
+Example: User types `rare` → Run `/model deepseek/deepseek-chat` → Reply "Switched to deepseek-chat"
