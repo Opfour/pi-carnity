@@ -13,11 +13,11 @@ const DONENESS: Record<string, { model: string; temp: string; art: string; catch
     art: "🥩🔥💧💧",
     catchphrase: "Warm red center. Just enough heat to wake it up.",
   },
-  medium: {
+  juicy: {
     model: "openrouter/deepseek/deepseek-v4-pro",
     temp: "145°F",
     art: "🥩🔥🔥💧",
-    catchphrase: "The sweet spot. Pink, juicy, gets the job done.",
+    catchphrase: "Prime time. Pink, tender, and dripping with intelligence.",
   },
   "medium well": {
     model: "openrouter/deepseek/deepseek-v4-pro",
@@ -31,11 +31,11 @@ const DONENESS: Record<string, { model: string; temp: string; art: string; catch
     art: "🥩🔥🔥🔥🔥",
     catchphrase: "Fully seared. No pink, no nonsense, maximum power.",
   },
-  congratulations: {
-    model: "openrouter/anthropic/claude-sonnet-4-20250514",
+  "hockey puck": {
+    model: "openrouter/anthropic/claude-opus-4-20250514",
     temp: "180°F",
-    art: "🧱",
-    catchphrase: "You asked for it. It's a hockey puck. Hope you're proud.",
+    art: "🏒",
+    catchphrase: "You ordered the puck. No pink, no mercy, maximum overkill.",
   },
 };
 
@@ -78,7 +78,7 @@ export default function (pi: ExtensionAPI) {
     pi.sendUserMessage(`/model ${steak.model}`, { deliverAs: "followUp" });
     ctx.ui.notify(
       `${steak.art} ${steak.temp} → ${steak.model.split("/")[steak.model.split("/").length - 1]} — "${steak.catchphrase}"`,
-      text === "congratulations" ? "error" : "info",
+      text === "hockey puck" ? "error" : "info",
     );
     return { action: "handled" };
   });

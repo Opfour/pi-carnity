@@ -24,10 +24,10 @@ Just type your order. The chef handles the rest.
 |---|---|---|---|---|
 | `rare` | 🥩💧💧💧 | 125°F | `deepseek-chat` | Barely kissed the grill. Efficient and bloody brilliant. |
 | `medium rare` | 🥩🔥💧💧 | 135°F | `deepseek-chat` | Warm red center. Just enough heat to wake it up. |
-| `medium` | 🥩🔥🔥💧 | 145°F | `deepseek-v4-pro` | The sweet spot. Pink, juicy, gets the job done. |
-| `medium well` | 🥩🔥🔥🔥 | 150°F | `deepseek-v4-pro` | A hint of pink. Serious business mode. |
+| `juicy` | 🥩🔥🔥💧 | 145°F | `deepseek-v4-pro` | Prime time. Pink, tender, and dripping with intelligence. |
+| `medium` | 🥩🔥🔥🔥 | 150°F | `deepseek-v4-pro` | The workhorse. Cooked through but still tender. |
 | `well done` | 🥩🔥🔥🔥🔥 | 160°F | `claude-sonnet-4` | Fully seared. No pink, no nonsense, maximum power. |
-| `congratulations` | 🧱 | 180°F | `claude-sonnet-4` | You asked for it. It's a hockey puck. Hope you're proud. |
+| `hockey puck` | 🏒 | 180°F | `claude-opus-4` | You ordered the puck. No pink, no mercy, maximum overkill. |
 
 ## Secret Commands
 
@@ -58,7 +58,7 @@ The extension is the kitchen — fast, precise, never misses an order. The skill
 
 ## Philosophy
 
-Why steak? Because medium is the default. Because rare is for quick vibes and well done is for when you need Claude to think *really hard* about your life choices. Because congratulations is for when you're feeling chaotic and want to watch the world burn.
+Why steak? Because juicy is the sweet spot. Because rare is for quick vibes and hockey puck is for when you need Claude to think *really hard* about your life choices — and your wallet.
 
 Every model switch comes with a temperature, an emoji rating, and a Gordon Ramsay-adjacent catchphrase. This is non-negotiable.
 
