@@ -9,8 +9,11 @@ description: Switch models by steak doneness. When the user types 'rare', 'mediu
 | Word | Model | Purpose |
 |------|-------|---------|
 | `rare` | deepseek/deepseek-chat | Lightweight tasks |
-| `medium` | openrouter/deepseek/deepseek-v4-pro | Balanced workloads |
-| `well done` | openrouter/anthropic/claude-sonnet-4-20250514 | Heavy lifting |
+| `medium rare` | deepseek/deepseek-chat | Quick vibes, a little warmer |
+| `juicy` | openrouter/deepseek/deepseek-v4-pro | The prime time sweet spot |
+| `medium` | openrouter/deepseek/deepseek-v4-pro | Cooked through, no nonsense |
+| `well done` | openrouter/anthropic/claude-sonnet-4-20250514 | Maximum power |
+| `hockey puck` | openrouter/anthropic/claude-opus-4-20250514 | Complete overkill |
 
 ## Instructions
 
