@@ -52,6 +52,7 @@ const TIPS = [
   "🧂 Salt your steak 40 minutes before cooking. Or right before. Never in between — soggy city.",
   "🛑 Let it rest. 5 minutes for a thin cut, 10 for thick. Carryover cooking will finish the job.",
   "🧈 Butter baste at the end. Tilt the pan, spoon that gold over the top. You're welcome.",
+  "🧈🧈 AFTER resting 5-10 minutes, drop a pat of compound butter on top. Let it melt into the cracks. Then slice. This is the way.",
   "🌡️ Use a thermometer. Your thumb trick is lying to you.",
   "🔪 Slice against the grain. Otherwise you're chewing steak-flavored rubber bands.",
   "🥩 Room temp meat sears better. Pull it out 30 mins before. Cold steak = sad crust.",
