@@ -19,11 +19,11 @@ const DONENESS: Record<string, { model: string; temp: string; art: string; catch
     art: "🥩🔥🔥💧",
     catchphrase: "Prime time. Pink, tender, and dripping with intelligence.",
   },
-  "medium well": {
-    model: "openrouter/deepseek/deepseek-v4-pro",
+  medium: {
+    model: "openrouter/google/gemini-2.5-pro",
     temp: "150°F",
     art: "🥩🔥🔥🔥",
-    catchphrase: "A hint of pink. Serious business mode.",
+    catchphrase: "The workhorse. Cooked through, Google-grade, still tender.",
   },
   "well done": {
     model: "openrouter/anthropic/claude-sonnet-4-20250514",
