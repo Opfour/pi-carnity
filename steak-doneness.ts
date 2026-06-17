@@ -8,7 +8,7 @@ const DONENESS: Record<string, { model: string; temp: string; art: string; catch
     catchphrase: "Barely kissed the grill. Efficient and bloody brilliant.",
   },
   "medium rare": {
-    model: "deepseek/deepseek-chat",
+    model: "deepseek/deepseek-v4-flash",
     temp: "135°F",
     art: "🥩🔥💧💧",
     catchphrase: "Warm red center. Just enough heat to wake it up.",

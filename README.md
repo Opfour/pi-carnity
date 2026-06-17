@@ -23,7 +23,7 @@ Just type your order. The chef handles the rest.
 | Order | Art | Temp | Model | Vibe |
 |---|---|---|---|---|
 | `rare` | 🥩💧💧💧 | 125°F | `deepseek-chat` | Barely kissed the grill. Efficient and bloody brilliant. |
-| `medium rare` | 🥩🔥💧💧 | 135°F | `deepseek-chat` | Warm red center. Just enough heat to wake it up. |
+| `medium rare` | 🥩🔥💧💧 | 135°F | `deepseek-v4-flash` | Warm red center. Just enough heat to wake it up. |
 | `juicy` | 🥩🔥🔥💧 | 145°F | `deepseek-v4-pro` | Prime time. Pink, tender, and dripping with intelligence. |
 | `medium` | 🥩🔥🔥🔥 | 150°F | `gemini-2.5-pro` | The workhorse. Cooked through, Google-grade, still tender. |
 | `well done` | 🥩🔥🔥🔥🔥 | 160°F | `claude-sonnet-4` | Fully seared. No pink, no nonsense, maximum power. |
