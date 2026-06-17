@@ -1,6 +1,9 @@
 # pi-steak-doneness
 
-Model switching by steak doneness. Extension + skill combo for pi.
+Models switching by comparative steak doneness. 
+(Translation: it's an easy way for my fat ass to remember which model to employ based on basic, typical, and/or intensive tasks using Deepseek and Claude :D )
+
+Extension + skill combo for pi.
 
 ## Install
 
