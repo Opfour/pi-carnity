@@ -47,6 +47,15 @@ const FACTS = [
   "Dry-aged beef loses 30% moisture. Dry-aged codebases lose 100% documentation.",
 ];
 
+const TIPS = [
+  "🔥 Make sure your pan is hot enough BEFORE you put the meat in. Sizzle on contact or you're steaming, not searing.",
+  "🧂 Salt your steak 40 minutes before cooking. Or right before. Never in between — soggy city.",
+  "🛑 Let it rest. 5 minutes for a thin cut, 10 for thick. Carryover cooking will finish the job.",
+  "🧈 Butter baste at the end. Tilt the pan, spoon that gold over the top. You're welcome.",
+  "🌡️ Use a thermometer. Your thumb trick is lying to you.",
+  "🔪 Slice against the grain. Otherwise you're chewing steak-flavored rubber bands.",
+];
+
 export default function (pi: ExtensionAPI) {
   pi.on("input", async (event, ctx) => {
     const text = event.text.toLowerCase().trim();
@@ -64,10 +73,16 @@ export default function (pi: ExtensionAPI) {
       return { action: "handled" };
     }
 
-    // Random fact
+    // Random fact or tip
     if (text === "fact" || text === "meat fact") {
       const fact = FACTS[Math.floor(Math.random() * FACTS.length)];
       pi.sendMessage({ customType: "steak-fact", content: `📖 **Meat Fact:** ${fact}`, display: true });
+      return { action: "handled" };
+    }
+
+    if (text === "tip" || text === "chef tip") {
+      const tip = TIPS[Math.floor(Math.random() * TIPS.length)];
+      pi.sendMessage({ customType: "steak-tip", content: `👨‍🍳 **Chef Tip:** ${tip}`, display: true });
       return { action: "handled" };
     }
 

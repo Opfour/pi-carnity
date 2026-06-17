@@ -35,6 +35,7 @@ Just type your order. The chef handles the rest.
 |---|---|
 | `/steak` or `menu` | Displays the full steakhouse menu |
 | `fact` or `meat fact` | Drops a random meat fact (educational!) |
+| `tip` or `chef tip` | Pro cooking advice from the chef 🧑‍🍳 |
 
 ### Sample Meat Facts
 > *"The Maillard reaction requires 300°F. Your GPU hits that just compiling Rust."*
@@ -42,6 +43,13 @@ Just type your order. The chef handles the rest.
 > *"'Well done' was requested by King Charles I. He was later executed."*
 
 > *"Dry-aged beef loses 30% moisture. Dry-aged codebases lose 100% documentation."*
+
+### Sample Chef Tips
+> *"🔥 Make sure your pan is hot enough BEFORE you put the meat in. Sizzle on contact or you're steaming, not searing."*
+
+> *"🧈 Butter baste at the end. Tilt the pan, spoon that gold over the top. You're welcome."*
+
+> *"🔪 Slice against the grain. Otherwise you're chewing steak-flavored rubber bands."*
 
 ## What's Inside
 
