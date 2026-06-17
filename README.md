@@ -35,7 +35,7 @@ Just type your order. The chef handles the rest.
 |---|---|
 | `/steak` or `menu` | Displays the full steakhouse menu |
 | `fact` or `meat fact` | Drops a random meat fact (educational!) |
-| `tip` or `chef tip` | Pro cooking advice from the chef 🧑‍🍳 |
+| `tip` or `chef tip` | Pro cooking advice from the chef 🧑‍🍳 (we've got 24 steak tips — get it?) |
 
 ### Sample Meat Facts
 > *"The Maillard reaction requires 300°F. Your GPU hits that just compiling Rust."*
