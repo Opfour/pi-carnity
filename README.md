@@ -8,7 +8,7 @@ Extension + skill combo for pi.
 ## Install
 
 ```bash
-pi install git:github.com/Opfour/pi-steak-doneness
+pi install git:github.com/Opfour/pi-carnity
 ```
 
 ## Usage

@@ -1,7 +1,7 @@
 {
-  "name": "@opfour/pi-steak-doneness",
+  "name": "@opfour/pi-carnity",
   "version": "1.0.0",
-  "description": "Model switching by steak doneness. Type 'rare', 'medium', or 'well done' to switch models.",
+  "description": "Pi-Carnity: model switching by steak doneness. Type 'rare', 'medium', or 'well done' to switch models. Extension + skill for Pi.",
   "keywords": ["pi-package"],
   "license": "MIT",
   "pi": {
