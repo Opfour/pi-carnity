@@ -24,7 +24,7 @@ Just type your order. The chef handles the rest.
 |---|---|---|---|---|
 | `rare` | 🥩💧💧💧 | 125°F | `deepseek-chat` | Barely kissed the grill. Efficient and bloody brilliant. |
 | `medium rare` | 🥩🔥💧💧 | 135°F | `deepseek-v4-flash` | Warm red center. Just enough heat to wake it up. |
-| `juicy` | 🥩🔥🔥💧 | 145°F | `deepseek-v4-pro` | Prime time. Pink, tender, and dripping with intelligence. |
+| `juicy` | 🥩🔥🔥💧 | 145°F | `mimo-v2.5-pro` | Prime time. Pink, tender, and dripping with MiMo intelligence. |
 | `medium` | 🥩🔥🔥🔥 | 150°F | `gemini-2.5-pro` | The workhorse. Cooked through, Google-grade, still tender. |
 | `well done` | 🥩🔥🔥🔥🔥 | 160°F | `claude-sonnet-4` | Fully seared. No pink, no nonsense, maximum power. |
 | `hockey puck` | 🏒 | 180°F | `claude-opus-4` | You ordered the puck. No pink, no mercy, maximum overkill. |

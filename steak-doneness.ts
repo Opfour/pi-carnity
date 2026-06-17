@@ -14,10 +14,10 @@ const DONENESS: Record<string, { model: string; temp: string; art: string; catch
     catchphrase: "Warm red center. Just enough heat to wake it up.",
   },
   juicy: {
-    model: "openrouter/deepseek/deepseek-v4-pro",
+    model: "openrouter/xiaomi/mimo-v2.5-pro",
     temp: "145°F",
     art: "🥩🔥🔥💧",
-    catchphrase: "Prime time. Pink, tender, and dripping with intelligence.",
+    catchphrase: "Prime time. Pink, tender, and dripping with MiMo intelligence.",
   },
   medium: {
     model: "openrouter/google/gemini-2.5-pro",

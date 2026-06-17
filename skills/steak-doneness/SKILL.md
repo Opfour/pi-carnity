@@ -10,7 +10,7 @@ description: Switch models by steak doneness. When the user types 'rare', 'mediu
 |------|-------|---------|
 | `rare` | deepseek/deepseek-chat | Lightweight tasks |
 | `medium rare` | deepseek/deepseek-v4-flash | Quick vibes, a little warmer |
-| `juicy` | openrouter/deepseek/deepseek-v4-pro | The prime time sweet spot |
+| `juicy` | openrouter/xiaomi/mimo-v2.5-pro | Prime time, MiMo flagship |
 | `medium` | openrouter/google/gemini-2.5-pro | Cooked through, Google-grade |
 | `well done` | openrouter/anthropic/claude-sonnet-4-20250514 | Maximum power |
 | `hockey puck` | openrouter/anthropic/claude-opus-4-20250514 | Complete overkill |
