@@ -77,7 +77,7 @@ blue: {
 
 ## License
 
-MIT. Grill freely.
+AGPL-3.0. Grill freely, but share your sauce.
 
 ---
 

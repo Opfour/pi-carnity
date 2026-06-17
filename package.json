@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Pi-Carnity: model switching by steak doneness. Type 'rare', 'medium', or 'well done' to switch models. Extension + skill for Pi.",
   "keywords": ["pi-package"],
-  "license": "MIT",
+  "license": "AGPL-3.0",
   "pi": {
     "extensions": ["./steak-doneness.ts"],
     "skills": ["./skills"]
